@@ -1,0 +1,14 @@
+.theme-dark {
+  /* User Panel */
+  --bg-user-panel: var(--surface);
+  --bg-user-panel-buttons: var(--surface);
+}
+/* User Panel */
+.visual-refresh .panels_c48ade {
+  background-color: var(--bg-user-panel);
+}
+
+/* User Panel Buttons */
+.visual-refresh button.button__67645 {
+  background-color: var(--bg-user-panel-buttons);
+}
