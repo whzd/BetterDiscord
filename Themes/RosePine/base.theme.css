@@ -1,0 +1,6 @@
+@import url("https://whzd.github.io/BetterDiscord/Themes/base-color.css");
+.theme-dark {
+  /* User Panel */
+  --bg-user-panel: var(--surface);
+  --bg-user-panel-buttons: var(--surface);
+}

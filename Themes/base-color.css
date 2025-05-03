@@ -1,7 +1,7 @@
 .theme-dark {
   /* User Panel */
-  --bg-user-panel: var(--surface);
-  --bg-user-panel-buttons: var(--surface);
+  --bg-user-panel: #fff;
+  --bg-user-panel-buttons: #fff;
 }
 /* User Panel */
 .visual-refresh .panels_c48ade {
