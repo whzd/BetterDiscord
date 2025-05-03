@@ -1,7 +1,50 @@
 .theme-dark {
-  /* User Panel */
-  --bg-user-panel: #fff;
-  --bg-user-panel-buttons: #fff;
+  /* Header */
+  --bg-header: #000;
+  /* Sidebar */
+  --bg-sidebar: #000;
+  /* Sidebar: DMs */
+  --bg-side-dms-list: #000;
+  /* Sidebar: Server */
+  --bg-side-server-list: #000;
+  --bg-side-server-list-header: #000;
+  /* Sidebar: User Panel */
+  --bg-user-panel: #000;
+  --bg-user-panel-buttons: #000;
+  /* Sidebar: Group Panel */
+  --bg-group-panel: #000;
+}
+
+/* Header */
+.title_c38106 {
+  background-color: var(--bg-header);
+}
+
+/* Sidebar */
+.visual-refresh .sidebar_c48ade {
+  background-color: var(--bg-sidebar);
+}
+.visual-refresh .container__2637a {
+  background-color: var(--bg-sidebar);
+}
+/** Direct messages **/
+.visual-refresh .privateChannels__35e86 {
+  background-color: var(--bg-sidebar);
+}
+.visual-refresh .sidebar_c48ade:after {
+  background-color: var(--bg-sidebar);
+}
+
+/* Sidebar Server List (Channels) */
+.visual-refresh .container_f37cb1 {
+  background-color: var(--bg-side-server-list-header);
+}
+.visual-refresh .scroller__629e4 {
+  background-color: var(--bg-side-server-list);
+}
+/* Sidebar Direct Messages List */
+.visual-refresh .scroller__99e7c {
+  background-color: var(--bg-side-dms-list);
 }
 /* User Panel */
 .visual-refresh .panels_c48ade {
@@ -11,4 +54,9 @@
 /* User Panel Buttons */
 .visual-refresh button.button__67645 {
   background-color: var(--bg-user-panel-buttons);
+}
+
+/* Group Bar */
+.itemsContainer_ef3116 {
+  background-color: var(--bg-group-panel);
 }
